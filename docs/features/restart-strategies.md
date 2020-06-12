@@ -22,7 +22,7 @@ module.exports = [{
 }]
 ```
 
-When an application crash unexpectedly and the option `--exp-backoff-restart-delay` is activated, you will be able to see a new application status **waiting restart**.
+When an application crashes unexpectedly and the option `--exp-backoff-restart-delay` is activated, you will be able to see a new application status **waiting restart**.
 
 By running `pm2 logs` you will also see the restart delay being incremented:
 ```
